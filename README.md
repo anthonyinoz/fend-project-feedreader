@@ -14,3 +14,7 @@ The _Jasmine HTML_ script includes an HTML Reporter that appends the test result
 
 The application (**js/app.js**) loads the feed content for each RSS feed using the _loadFeed()_ function, which itself uses an AJAX POST request to fetch the
  feeds. Handling the asynchronous retrieval of the feeds in the Jasmine tests is achieved by using Jasmine _beforeEach_ function to to execute the _LoadFeed()_ function prior to executing the test. The _loadFeed()_ function takes a callback which is executed once the feeds have been retrieved. Using the _done()_ function as a callback allows the test to be delayed until the _loadFeed()_ function completes (either successfully or with an error).
+
+ ### Acknowledgements and attributions
+
+ The following resource: [Webinar: FeedReader Testing (P4) Sept-23 walk-thru with @Lloan  - Zoom](https://udenver.zoom.us/recording/play/-1Agy4wDME0_ab_zaNUiWquZOWdb4qQvCJENURKWT4CDtHWqXrE0yI7DSi8kfvm5?continueMode=true) was used in this project.
